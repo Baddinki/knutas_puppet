@@ -1,1 +1,1 @@
-sudo apt-get install -y puppet git && git clone https://github.com/Baddinki/knutas_puppet.git && sudo puppet apply --modulepath ~/knutas_puppet/puppet/modules/ -e 'class {"ssh":}'
+setxkbmap fi && sudo apt-get update && sudo apt-get install -y puppet git && git clone https://github.com/Baddinki/knutas_puppet.git && sudo puppet apply --modulepath ~/knutas_puppet/puppet/modules/ -e 'class {"ssh":}'
